@@ -9,7 +9,7 @@ To view the nodes in the cluster, run the *kubectl get nodes* command:
 
 This command shows all nodes that can be used to host our applications. Now we have only one node, and we can see that it’s status is ready (it is ready to accept applications for deployment). 
 
-`docker run --rm -v `pwd`:/host aquasec/kube-bench:latest install`{{execute}}
+``docker run --rm -v `pwd`:/host aquasec/kube-bench:latest install``{{execute}}
 
 `./kube-bench master`{{execute}}
 
