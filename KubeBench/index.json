@@ -1,7 +1,7 @@
 {
-	"pathwayTitle": "KubeBench Playground",
-	"title": "Kube-Bench in MiniKube",
-	"description": "Playground to show Kube-Bench",
+	"pathwayTitle": "KubeBench and KubeHunter Playground",
+	"title": "Kube-Bench and KubeHunter in MiniKube",
+	"description": "Playground to show Kube-Bench and KubeHunter",
 	"backend": {
 		"port": 30000,
 		"imageid": "minikube"
@@ -16,11 +16,14 @@
 			"title": " Cluster up and running",
 			"text": "step1.md"
 		}, {
-			"title": "Cluster version",
+			"title": "Cluster Running",
 			"text": "step2.md"
 		}, {
-			"title": "Cluster details",
+			"title": "Kube-Bench",
 			"text": "step3.md"
+		}, { 
+			"title": "Kube-Hunter",
+			"text": "step4.md"
 		}],
 		"intro": {
 			"courseData": "env-init.sh",
